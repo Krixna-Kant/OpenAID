@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+out/
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+configuration.json
+service-account*.json
+
+# Connector SDK local debug output
+connector-sdk/files/
+
+# Allow project config JSON
+!package.json
+!package-lock.json
+!tsconfig.json
+!configuration.json.example
+
+# Build
+dist/
+build/
